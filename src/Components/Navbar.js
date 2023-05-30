@@ -8,10 +8,10 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-dark navbar-dark " style={{ height: 'auto' }}>
+      <nav className="navbar navbar-expand-lg bg-dark navbar-dark fixed-top " style={{ height: 'auto' }}>
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            <img src="\logo_transparent.png" style={{ width: '10rem', height: '10rem' }} alt="" />
+            <img src="\logo_transparent2.jpg" style={{ width: '8rem',height:'auto',aspectRatio:'3/1',objectFit:'contain' }} alt="" />
           </Link>
 
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

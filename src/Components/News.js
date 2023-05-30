@@ -77,7 +77,7 @@ const News=(props)=> {
 
   
     return (
-      <div className="container my-3">
+      <div className="container my-3" style={{paddingTop:'70px'}}>
        
         <h1 className="my-3" >Top {capitalizeFirstLetter(props.category)} Headlines</h1>
 
